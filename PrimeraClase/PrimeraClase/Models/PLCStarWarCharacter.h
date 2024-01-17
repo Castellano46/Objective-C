@@ -13,6 +13,9 @@
 @property NSString * lastName;
 @property NSString * alias;
 
+-(id) initWhithFirstName:(NSString *) firstName
+                lastName: (NSString *) lastName
+                   alias: (NSString *) alias;
 
 @end
 

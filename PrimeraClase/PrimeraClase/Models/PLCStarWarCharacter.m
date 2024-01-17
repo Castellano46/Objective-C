@@ -7,6 +7,20 @@
 
 #import "PLCStarWarCharacter.h"
 
-@implementation NSObject (PLCStarWarCharacter)
+@implementation PLCStarWarCharacter
+
+-(id) initWhithFirstName:(NSString *) firstName
+                lastName: (NSString *) lastName
+                   alias: (NSString *) alias{
+    
+    if (self = [super init]) {
+        _firstName = firstName;
+        _lastName = lastName;
+        _alias = alias;
+        
+    }
+    
+    return self;
+}
 
 @end

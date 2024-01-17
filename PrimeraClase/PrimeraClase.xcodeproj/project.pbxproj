@@ -60,8 +60,8 @@
 		EB25A7662B553F9C006A8B2D /* PrimeraClase */ = {
 			isa = PBXGroup;
 			children = (
-				EB25A7702B5540D0006A8B2D /* Models */,
 				EB25A7672B553F9C006A8B2D /* main.m */,
+				EB25A7702B5540D0006A8B2D /* Models */,
 			);
 			path = PrimeraClase;
 			sourceTree = "<group>";

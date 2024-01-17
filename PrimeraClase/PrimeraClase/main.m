@@ -11,12 +11,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
       // Crear una instancia de nuestra clase
-        PLCStarWarCharacter *anakin = [PLCStarWarCharacter new];
-        
-        // Asignar valores a las propiedades
-        [anakin setFirstName:@"Anakin"];
-        [anakin setLastName:@"Skywalker"];
-        [anakin setAlias:@"Darth Vader"];
+        PLCStarWarCharacter *anakin = [[PLCStarWarCharacter alloc] initWhithFirstName:@"Anakin" lastName:@"Skywalker" alias:@"Darth Vader"];
         
         //NSLog
         NSLog(@"Mi nombre es %@ %@ y soy más conocido como %@", [anakin firstName], [anakin lastName], [anakin alias]);
