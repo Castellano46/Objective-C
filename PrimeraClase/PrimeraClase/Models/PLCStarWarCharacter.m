@@ -38,4 +38,12 @@
     return [self initWhithFirstName:@"" lastName:@"" alias: alias];
 }
 
+-(NSString *) description{
+    
+    return [NSString stringWithFormat:@"<%@: %@ %@ %@>", [self class], [self firstName], [self lastName], [self alias]];
+    
+}
+
+
+
 @end

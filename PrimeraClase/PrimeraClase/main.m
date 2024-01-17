@@ -13,11 +13,8 @@ int main(int argc, const char * argv[]) {
       // Crear una instancia de nuestra clase
         PLCStarWarCharacter *anakin = [PLCStarWarCharacter starWarsCharacterWithFirstName:@"Anakin" lastName:@"Skaywalker" alias:@"Darth Vader"];
         
-        PLCStarWarCharacter *c3po = [PLCStarWarCharacter starWarsCharacterWithAlias: @"C-3PO"];
-        
         //NSLog
-        NSLog(@"%@", c3po);
-    
+        NSLog(@"%@", anakin);
     }
     return 0;
 }
