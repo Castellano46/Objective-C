@@ -11,15 +11,13 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
       // Crear una instancia de nuestra clase
-        PLCStarWarCharacter *anakin = [[PLCStarWarCharacter alloc] initWhithFirstName:@"Anakin" lastName:@"Skywalker" alias:@"Darth Vader"];
+        PLCStarWarCharacter *anakin = [PLCStarWarCharacter starWarsCharacterWithFirstName:@"Anakin" lastName:@"Skaywalker" alias:@"Darth Vader"];
         
-        PLCStarWarCharacter *c3po = [[PLCStarWarCharacter alloc] initWhithAlias: @"C-3PO"];
+        PLCStarWarCharacter *c3po = [PLCStarWarCharacter starWarsCharacterWithAlias: @"C-3PO"];
         
         //NSLog
-        NSLog(@"Mi nombre es %@ %@ y soy más conocido como %@", [anakin firstName], [anakin lastName], [anakin alias]);
-        NSLog(@"Soy %@ y soy un androide de protocolo", [c3po alias]);
-        
-        
+        NSLog(@"%@", c3po);
+    
     }
     return 0;
 }

@@ -9,6 +9,17 @@
 
 @implementation PLCStarWarCharacter
 
++(id) starWarsCharacterWithFirstName:(NSString *) firstName
+                            lastName: (NSString *) lastName
+                               alias: (NSString *) alias{
+    return [[self alloc] initWhithFirstName:firstName lastName:lastName alias:alias];
+}
+
++(id) starWarsCharacterWithAlias: (NSString *) alias{
+    
+    return [[self alloc] initWhithAlias:alias];
+}
+
 -(id) initWhithFirstName:(NSString *) firstName
                 lastName: (NSString *) lastName
                    alias: (NSString *) alias{
