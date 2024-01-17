@@ -13,9 +13,12 @@
 @property NSString * lastName;
 @property NSString * alias;
 
+// Designado
 -(id) initWhithFirstName:(NSString *) firstName
                 lastName: (NSString *) lastName
                    alias: (NSString *) alias;
+
+-(id) initWhithAlias: (NSString *) alias;
 
 @end
 

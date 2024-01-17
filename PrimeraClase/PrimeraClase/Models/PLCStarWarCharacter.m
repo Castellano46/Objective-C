@@ -23,4 +23,8 @@
     return self;
 }
 
+-(id) initWhithAlias: (NSString *) alias{
+    return [self initWhithFirstName:@"" lastName:@"" alias: alias];
+}
+
 @end
