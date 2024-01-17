@@ -5,7 +5,7 @@
 //  Created by Pedro on 15/1/24.
 //
 
-#import "NSObject+PLCStarWarCharacter.h"
+#import "PLCStarWarCharacter.h"
 
 @implementation NSObject (PLCStarWarCharacter)
 
